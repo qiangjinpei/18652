@@ -1,0 +1,189 @@
+/* Fix user-agent */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, input {
+  font-family:
+    "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  word-wrap: break-word;
+}
+li{
+	list-style:none;
+}
+
+/* Pages */
+
+.pages {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* Login Page */
+.loginPage{
+
+}
+
+.loginPage .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+
+  text-align: center;
+  top: 40%;
+  width: 100%;
+}
+
+.loginPage .title {
+  font-size: 200%;
+  font-weight: 100;
+}
+
+.loginPage .form .usernameInput {
+  background-color: transparent;
+  outline: none;
+  padding-top:15px;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 400px;
+  font-size: 180%;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+
+.loginPage .form .submitUsername{
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 8px;
+	margin-top:20px;
+}
+
+
+.chatPage {
+	display:none;
+	height:100%;
+}
+
+.chatArea {
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.chatArea .messages {
+  height: 70%;
+  margin: 0;
+  overflow-y: scroll;
+  padding: 10px 20px 10px 20px;
+  font-size: 150%;
+}
+
+
+.welcome{
+	height:40px;
+	width:80%;
+	margin:auto;
+	text-align:center;
+	
+}
+
+.message{
+	width:80%;
+	overflow:hidden;
+	background-color:lavender;
+	margin:auto;
+	margin-bottom:10px;
+}
+
+.message .username {
+	font-weight: 700;
+	float:left;
+	margin-left:10px;
+}
+.messageTime{
+	float:right;
+	margin-right:10px;
+	position:relative;
+	margin-right:10px;
+	font-size:20px;
+	margin-top:5px;
+}
+.messageBody{
+	display:block;
+	width:100%;
+	padding-top:30px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+.inputArea{
+	bottom:15%;
+	text-align:center;
+	height:120px;
+	width:100%;
+	position:absolute;
+}
+.inputArea .inputMessage {
+  outline: none;
+  padding-left: 10px;
+  right: 0;
+  width: 80%;
+  background-color: powderblue;
+  font-size: 16px;
+  line-height: 30px;
+  resize:none;
+  border-radius: 8px;
+}
+
+.submitArea{
+	bottom:0px;
+	background-color:lavender;
+	text-align:center;
+	position:absolute;
+	height:12%;
+	width:100%;
+}
+.submitArea .submitMessage{
+	bottom: 15px;
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+	border-radius: 8px;
+	position:absolute;
+	margin:auto;
+	width:10%;
+}

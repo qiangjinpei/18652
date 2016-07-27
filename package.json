@@ -1,0 +1,9 @@
+{
+  "name": "18652",
+  "version": "0.0.1",
+  "description": "my 18652 assignment",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.4.8"
+  }
+}
